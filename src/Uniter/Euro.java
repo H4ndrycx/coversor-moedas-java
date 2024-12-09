@@ -5,9 +5,9 @@ package Uninter;
  */
 
 public class Euro extends Moeda {
-	public Euro(double valor) {
-		super(valor);
+    public Euro(double valor) {
+        super(valor);
         this.moedaNome = "Euro";
         this.cotacao = 6.00;
-	}
+    }
 }

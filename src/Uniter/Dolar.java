@@ -6,9 +6,9 @@ package Uninter;
 
 public class Dolar extends Moeda {
 
-	public Dolar(double valor) {
-		super(valor);
+    public Dolar(double valor) {
+        super(valor);
         this.moedaNome = "Dolar";
         this.cotacao = 6.07;
-	}
+    }
 }
