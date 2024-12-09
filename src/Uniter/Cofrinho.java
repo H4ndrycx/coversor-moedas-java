@@ -7,7 +7,7 @@ public class Cofrinho {
     private ArrayList<Moeda> listaMoedas; //Lista de moedas no cofrinho
 
     public Cofrinho() {
-        this.listaMoedas = new ArrayList<Moeda>();
+		this.listaMoedas = new ArrayList<Moeda>();
 
         // ids: Real: 0 , Dolar: 1, Euro: 3;
         this.listaMoedas.add(new Real(0));
